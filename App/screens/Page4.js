@@ -6,6 +6,6 @@ export default () => (
     <Text>Page 4</Text>
     <Text>The End</Text>
   </View>
-)
+);
 
 
