@@ -9,6 +9,6 @@ export default ({ navigation }) => (
       onPress={() => navigation.navigate('Page2')}
     />
   </View>
-)
+);
 
 
