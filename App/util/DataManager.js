@@ -1,5 +1,7 @@
-export const getPage1Paras = () => {
-  return new Promise(() => {
-
-  })
+// resolve, reject
+export const getParagraphs = () => {
+  return new Promise((resolve) => {
+    const data = require('../data/paragraphs.json');
+    resolve(data);
+  });
 };
