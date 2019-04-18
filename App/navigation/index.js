@@ -1,15 +1,14 @@
 import { createAppContainer, createStackNavigator } from 'react-navigation';
 
-import Contents from '../screens/Contents';
+import Page1 from '../screens/Page1';
 import Page2 from '../screens/Page2';
 import Page3 from '../screens/Page3';
-import Page4 from '../screens/Page4';
 
 const MainStack = createStackNavigator({
-  Contents: {
-    screen: Contents,
+  Page1: {
+    screen: Page1,
     navigationOptions: {
-      headerTitle: 'Table Of Contents',
+      headerTitle: 'Page 1',
     }
   },
   Page2: {
@@ -22,12 +21,6 @@ const MainStack = createStackNavigator({
     screen: Page3,
     navigationOptions: {
       headerTitle: 'Page 3',
-    }
-  },
-  Page4: {
-    screen: Page4,
-    navigationOptions: {
-      headerTitle: 'Page 4',
     }
   }
 });
